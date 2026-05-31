@@ -59,7 +59,7 @@
             android:layout_width="match_parent"
             android:layout_height="58dp"
             android:backgroundTint="#28A745"
-            android:text="Daftar"
+            android:text="Masuk"
             android:textAllCaps="false"
             android:textColor="#FFFFFF"
             android:textSize="20sp"
@@ -67,11 +67,11 @@
 
         <!-- Login -->
         <TextView
-            android:id="@+id/txtMasuk"
+            android:id="@+id/txtDaftar"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="18dp"
-            android:text="Punya akun? Masuk"
+            android:text="Belum Punya akun? Daftar"
             android:textColor="#1B5E20"
             android:textSize="17sp"
             android:textStyle="bold" />

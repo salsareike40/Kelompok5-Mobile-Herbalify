@@ -13,14 +13,16 @@ class SplashActivity : AppCompatActivity() {
         setContentView(R.layout.activity_splash)
 
         val btnMulai = findViewById<Button>(R.id.btnMulai)
-        val txtMasuk = findViewById<TextView>(R.id.txtMasuk)
+        val txtMasuk = findViewById<TextView>(R.id.txtDaftar)
 
+        // tombol mulai -> login
         btnMulai.setOnClickListener {
             startActivity(Intent(this, LoginActivity::class.java))
         }
 
+        // daftar akun -> register
         txtMasuk.setOnClickListener {
-            startActivity(Intent(this, LoginActivity::class.java))
+            startActivity(Intent(this, RegisterActivity::class.java))
         }
     }
 }
